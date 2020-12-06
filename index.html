@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<!--intro-->
+
+
+
+
+
+
+<html>
+
+<head>
+<title>
+  Corelating Twitter happiness and qualities of American Cities
+</title>
+
+  <!--  PUT CSS HERE-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--need make second container with different ID for second legend-->
+  <div id="legendContainer">
+    
+    <p id="title">
+      Heatmap of Area Populations
+    </p>
+
+    <canvas id="legend" width="80" height="300">
+    </canvas>
+  </div>
+  <div id="secondLegend">
+    <p id="title">
+      Happiness of Tweeters 
+      (1=happy, -1=unhappy)
+    </p>
+    <canvas id="legend2" width="80" height="300"></canvas>
+  </div>
+  <div id="container"></div>
+  <div class="dropdown">
+    
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">population</a>
+        <a href="#">density</a>
+        <a href="#">numTweets</a>
+      </div>
+    </div>
+  <!--scripts-->
+  <script src="simpleheat.js"></script>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

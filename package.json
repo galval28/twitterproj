@@ -1,0 +1,18 @@
+{
+  "name": "twitterproj",
+  "version": "1.0.0",
+  "description": "for my twitter sentiment thing",
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Valery S",
+  "dependencies": {
+    "d3": "^6.2.0",
+    "ogr2ogr": "^2.1.0",
+    "papaparse": "^5.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
+}
